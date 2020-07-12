@@ -13,7 +13,7 @@ class Anagram
         a << ward
       end 
     end 
-    return []
+    return a
   end 
   
 end 
