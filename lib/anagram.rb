@@ -10,7 +10,7 @@ class Anagram
     a = []
     wards.each do |ward|
       if word.split("").sort == ward.split("").sort 
-        return ward
+        a << ward
       end 
     end 
     return []
