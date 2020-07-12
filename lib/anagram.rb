@@ -13,7 +13,7 @@ class Anagram
         return true 
       end 
     end 
-    return false 
+    return []
   end 
   
 end 
