@@ -7,6 +7,7 @@ class Anagram
   end 
   
   def match(word)
-    
+    @words.each do |ward|
+      if 
   
 end 
