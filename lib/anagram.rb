@@ -4,7 +4,7 @@ class Anagram
   
   def initialize(word)
     @word = word 
-    @words = []
+    @words = [word]
   end 
   
   def match(words)
