@@ -7,7 +7,7 @@ class Anagram
     @words = []
   end 
   
-  def match(words)
+  def match(:words)
     @words.each do |ward|
       if word.split("").sort == ward.split("").sort 
         return ward
